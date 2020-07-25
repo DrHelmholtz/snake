@@ -1,0 +1,43 @@
+.root {
+     -fx-background-color: #CCFF99;
+}
+.HBox {
+     -fx-background-color: blue;
+}
+#startgame_btn{
+	-fx-background-color: 
+        #328a2e,
+        linear-gradient(#fafdfe, #e8fcec),
+        linear-gradient(#eaf6fd 0.0%, #eafdeb 49.0%, #85cc88 50.0%, #a7f5d1 100.0%);
+    -fx-background-insets: 0.0,1.0,2.0;
+    -fx-background-radius: 3.0,2.0,1.0;
+    -fx-padding: 3.0 30.0 3.0 30.0;
+    -fx-text-fill: black;
+    -fx-font-size: 17.0px;
+	}
+.table-view{
+   -fx-background-color: transparent;
+}
+.table-view .column-header {
+    -fx-background-color: #64d989,
+    linear-gradient(#eaf6fd 0.0%, #eafdeb 49.0%, #85cc88 50.0%, #a7f5d1 100.0%);
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0.0, 0.0 0.0 1.0 0.0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+#leaderboards_text{
+	-fx-text-fill: black;
+    -fx-font-size: 17.0px;
+}
